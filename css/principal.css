@@ -263,7 +263,9 @@ header{
 
     
     .container-aside{
-        flex-wrap: wrap;
+        display: none;
+        width: 0;
+        height: 0;
     }
 
     #icon-menu{
@@ -271,9 +273,4 @@ header{
     }
 
 
-.container-aside{
-    display: none;
-    width: 0;
-    height: 0;
-    }
 }
